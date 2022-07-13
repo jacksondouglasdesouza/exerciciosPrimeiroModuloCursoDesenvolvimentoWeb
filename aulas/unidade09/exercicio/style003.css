@@ -1,0 +1,100 @@
+body {
+  background-color: #eeeeee;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+  width: 955px;
+  margin: -1px auto 10px;
+  border: 1px solid #ddd;
+  background-color: #eeeeee;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+header{
+  width: 955px;
+  height: 95px;
+}
+
+nav {
+  width: 955px;
+  background-color: #111;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 4px;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+nav ul li a {
+  font-size: 0.85em;
+  text-decoration: none;
+  color: #fff;
+  padding: 4px 20px;
+}
+nav ul li a:hover {
+  background-color: #361400;
+}
+
+article {
+  float: left;
+  margin: 30px 20px;
+  width: 600px;
+}
+
+aside{
+  background: url(/aulas/unidade09/imagens/citar.png) no-repeat;
+  float: left;
+  width: 230px;
+  border-top: 2px solid #361400;
+  border-bottom: 2px solid #361400;
+  padding: 20px 10px 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+aside p{
+  color: #111;
+}
+#apoio {
+  float: right;
+  width: 300px;
+  margin-top: 30px;
+}
+footer{
+  clear: both;
+  width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ececec;
+  padding: 5px;
+}
+
+h1, h2,
+h4 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #361400;
+  font-style: italic;
+  letter-spacing: -0.05em;
+}
+h1 {
+  font-size: 2.6em;
+  margin: 0 5px;
+}
+h4 {
+  font-size: 1.6em;
+  margin: 0 5px;
+}
+p,
+li {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.8;
+}

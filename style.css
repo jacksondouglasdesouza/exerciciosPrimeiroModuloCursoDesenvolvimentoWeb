@@ -1,0 +1,75 @@
+body{
+  background-color: #eeeeee;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: #111;
+  margin: 30px;
+}
+
+a{
+  color: rgb(0, 73, 184);
+  text-decoration: none;
+  font-weight: bold;
+}
+h1{
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(51, 48, 48);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imgPhoto{
+  list-style-image: url("/imgs/verified.png");
+  width: 5px;
+}
+.imsPhoto02Id{
+  list-style-image: url("/aulas/unidade08/exercicio01/imagem/estrela.png");
+
+}
+
+#estiloListId ul{
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+#estiloListId li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#estiloListId li a{
+  display: block;
+  background-color: #09c;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-bottom: 1px;
+  padding: 5px 3px;
+}
+#estiloListId li a:hover{
+  background-color: #111;
+  color: #fff;
+}
+
+
+#estiloListId002 ul{
+  margin: 0;
+  padding: 0;
+}
+#estiloListId002 li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+#estiloListId002 li a{
+  background-color: #09c;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-bottom: 1px;
+  padding: 5px 10px;
+  margin-left: -4px;
+}
+#estiloListId002 li a:hover{
+  background-color: #111;
+  color: #fff;
+}

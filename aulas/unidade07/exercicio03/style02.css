@@ -1,0 +1,52 @@
+body{
+  background-color: #eeeeee;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: #111;
+  margin: 30px;
+}
+
+a{
+  color: rgb(0, 73, 184);
+  text-decoration: none;
+  font-weight: bold;
+}
+h1{
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(51, 48, 48);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(240, 137, 35);
+  letter-spacing: -0.05;
+  text-shadow: 1px 1px 1px #666;
+}
+
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(240, 137, 35);
+  text-shadow: 1px 1px 1px #666;
+}
+
+p,
+li,
+section {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+footer {
+  height: 30px;
+}
